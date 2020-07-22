@@ -1,0 +1,4 @@
+#!/bin/bash
+export 'JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home'
+cd '/Users/jsproch/ui-exp-dg/HelloKotlin'
+./gradlew $@

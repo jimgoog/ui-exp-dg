@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0748e84f-cd17-427c-85ca-106b7dd4810a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_3_72_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_72_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ARKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AVFoundation__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AVKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Accelerate__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Accounts__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AdSupport__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AddressBookUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AddressBook__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AssetsLibrary__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AudioToolbox__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___AuthenticationServices__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___BackgroundTasks__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___BusinessChat__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CFNetwork__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CallKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CarPlay__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ClassKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CloudKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CommonCrypto__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ContactsUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Contacts__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreAudioKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreAudioTypes__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreAudio__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreBluetooth__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreData__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreFoundation__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreGraphics__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreHaptics__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreImage__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreLocation__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreMIDI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreML__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreMedia__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreMotion__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreNFC__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreServices__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreSpotlight__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreTelephony__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreText__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CoreVideo__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___CryptoTokenKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___DeviceCheck__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___EAGL__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___EventKitUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___EventKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ExternalAccessory__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___FileProviderUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___FileProvider__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Foundation__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___GLKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___GSS__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___GameController__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___GameKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___GameplayKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___HealthKitUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___HealthKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___HomeKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___IOSurface__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___IdentityLookupUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___IdentityLookup__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ImageCaptureCore__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ImageIO__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___IntentsUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Intents__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___JavaScriptCore__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___LinkPresentation__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___LocalAuthentication__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MapKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MediaAccessibility__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MediaPlayer__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MediaToolbox__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MessageUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Messages__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MetalKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MetalPerformanceShaders__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Metal__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MetricKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MobileCoreServices__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ModelIO__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___MultipeerConnectivity__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___NaturalLanguage__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___NetworkExtension__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Network__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___NewsstandKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___NotificationCenter__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___OpenAL__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___OpenGLES2__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___OpenGLES3__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___OpenGLESCommon__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___OpenGLES__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___PDFKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___PassKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___PencilKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___PhotosUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Photos__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___PushKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___QuartzCore__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___QuickLookThumbnailing__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___QuickLook__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___ReplayKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___SafariServices__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___SceneKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Security__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Social__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___SoundAnalysis__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Speech__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___SpriteKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___StoreKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___SystemConfiguration__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Twitter__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___UIKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___UserNotificationsUI__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___UserNotifications__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___VideoSubscriberAccount__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___VideoToolbox__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___VisionKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___Vision__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___WatchConnectivity__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___WebKit__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___builtin__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___darwin__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___iAd__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___iconv__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___objc__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___posix__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___stdlib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Kotlin_Native_1_3_72___zlib__ios_x64_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SharedCode/src/iosMain/kotlin/iOS_Klutter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_android_extensions_runtime_1_4_M3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_4_M3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_M3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_M3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_72_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/SharedCode.androidMain~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/SharedCode.androidMain~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/SharedCode.androidTest~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/SharedCode.androidTest~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/SharedCode.commonMain~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/SharedCode.commonMain~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/SharedCode.commonTest~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/SharedCode.commonTest~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/SharedCode.iosMain~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/SharedCode.iosMain~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/SharedCode.iosTest~1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/SharedCode.iosTest~1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/build/bin/ios/debugFramework/SharedCode.framework.dSYM/Contents/Resources/DWARF/SharedCode" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/build/bin/ios/debugFramework/SharedCode.framework.dSYM/Contents/Resources/DWARF/SharedCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/build/bin/ios/debugFramework/SharedCode.framework/Headers/SharedCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/build/bin/ios/debugFramework/SharedCode.framework/Headers/SharedCode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/build/bin/ios/debugFramework/SharedCode.framework/SharedCode" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/build/bin/ios/debugFramework/SharedCode.framework/SharedCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/build/classes/kotlin/ios/main/SharedCode.klib" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/build/classes/kotlin/ios/main/SharedCode.klib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/build/xcode-frameworks/SharedCode.framework.dSYM/Contents/Resources/DWARF/SharedCode" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/build/xcode-frameworks/SharedCode.framework.dSYM/Contents/Resources/DWARF/SharedCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/build/xcode-frameworks/SharedCode.framework/Headers/SharedCode.h" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/build/xcode-frameworks/SharedCode.framework/Headers/SharedCode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/build/xcode-frameworks/SharedCode.framework/SharedCode" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/build/xcode-frameworks/SharedCode.framework/SharedCode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/skia.klib" beforeDir="false" afterPath="$PROJECT_DIR$/SharedCode/skia.klib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedCode/src/iosMain/kotlin/actual.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native/KotlinIOS/KotlinIOS.xcodeproj/project.xcworkspace/xcuserdata/jsproch.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/native/KotlinIOS/KotlinIOS.xcodeproj/project.xcworkspace/xcuserdata/jsproch.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native/KotlinIOS/KotlinIOS/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/native/KotlinIOS/KotlinIOS/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloObjc/HelloObjc.xcodeproj/project.xcworkspace/xcuserdata/jsproch.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloObjc/HelloObjc.xcodeproj/project.xcworkspace/xcuserdata/jsproch.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29_x86" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="HelloKotlin" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1f2RhlErOEuNzjXHkzcCioUwFw8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mpp-ios-android.app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="mpp-ios-android.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0748e84f-cd17-427c-85ca-106b7dd4810a" name="Default Changelist" comment="" />
+      <created>1595414321998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595414321998</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="145" width="693" height="732" key="find.popup" timestamp="1595463902210">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="598" y="145" width="693" height="732" key="find.popup/0.23.1680.973@0.23.1680.973" timestamp="1595463902210" />
+    <state x="521" y="278" width="670" height="676" key="search.everywhere.popup" timestamp="1595420328958">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="521" y="278" width="670" height="676" key="search.everywhere.popup/0.23.1680.973@0.23.1680.973" timestamp="1595420328958" />
+  </component>
+</project>

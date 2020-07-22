@@ -1,0 +1,1434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47729E0622F447C800B9B36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47729E0522F447C800B9B36B /* AppDelegate.swift */; };
+		47729E0822F447C800B9B36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47729E0722F447C800B9B36B /* ViewController.swift */; };
+		47729E0B22F447C800B9B36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47729E0922F447C800B9B36B /* Main.storyboard */; };
+		47729E0D22F447CA00B9B36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47729E0C22F447CA00B9B36B /* Assets.xcassets */; };
+		47729E1022F447CA00B9B36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47729E0E22F447CA00B9B36B /* LaunchScreen.storyboard */; };
+		47729E1B22F447CA00B9B36B /* KotlinIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47729E1A22F447CA00B9B36B /* KotlinIOSTests.swift */; };
+		47729E2622F447CA00B9B36B /* KotlinIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47729E2522F447CA00B9B36B /* KotlinIOSUITests.swift */; };
+		47729E6E22F4806C00B9B36B /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47729E6D22F4806B00B9B36B /* SharedCode.framework */; };
+		47729E6F22F4806C00B9B36B /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47729E6D22F4806B00B9B36B /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DAD510F924C84BA80030D767 /* libskia.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD510F824C84BA80030D767 /* libskia.dylib */; };
+		DAD510FA24C84BA80030D767 /* libskia.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAD510F824C84BA80030D767 /* libskia.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47729E1722F447CA00B9B36B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47729DFA22F447C800B9B36B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47729E0122F447C800B9B36B;
+			remoteInfo = KotlinIOS;
+		};
+		47729E2222F447CA00B9B36B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47729DFA22F447C800B9B36B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47729E0122F447C800B9B36B;
+			remoteInfo = KotlinIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		47729E7022F4806C00B9B36B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DAD510FA24C84BA80030D767 /* libskia.dylib in Embed Frameworks */,
+				47729E6F22F4806C00B9B36B /* SharedCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47729E0222F447C800B9B36B /* KotlinIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47729E0522F447C800B9B36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47729E0722F447C800B9B36B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47729E0A22F447C800B9B36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47729E0C22F447CA00B9B36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47729E0F22F447CA00B9B36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47729E1122F447CA00B9B36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47729E1622F447CA00B9B36B /* KotlinIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47729E1A22F447CA00B9B36B /* KotlinIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinIOSTests.swift; sourceTree = "<group>"; };
+		47729E1C22F447CA00B9B36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47729E2122F447CA00B9B36B /* KotlinIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47729E2522F447CA00B9B36B /* KotlinIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinIOSUITests.swift; sourceTree = "<group>"; };
+		47729E2722F447CA00B9B36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47729E6D22F4806B00B9B36B /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
+		DAD50FC324C84B900030D767 /* SkSVGCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSVGCanvas.h; sourceTree = "<group>"; };
+		DAD50FC524C84B900030D767 /* GrContextThreadSafeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContextThreadSafeProxy.h; sourceTree = "<group>"; };
+		DAD50FC624C84B900030D767 /* GrBackendSurfaceMutableState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendSurfaceMutableState.h; sourceTree = "<group>"; };
+		DAD50FC724C84B900030D767 /* GrBackendSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendSemaphore.h; sourceTree = "<group>"; };
+		DAD50FC824C84B900030D767 /* GrContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContext.h; sourceTree = "<group>"; };
+		DAD50FCA24C84B900030D767 /* GrMockTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrMockTypes.h; sourceTree = "<group>"; };
+		DAD50FCB24C84B900030D767 /* GrDriverBugWorkaroundsAutogen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrDriverBugWorkaroundsAutogen.h; sourceTree = "<group>"; };
+		DAD50FCC24C84B900030D767 /* GrTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrTypes.h; sourceTree = "<group>"; };
+		DAD50FCE24C84B900030D767 /* GrVkTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkTypes.h; sourceTree = "<group>"; };
+		DAD50FCF24C84B900030D767 /* GrVkBackendContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkBackendContext.h; sourceTree = "<group>"; };
+		DAD50FD024C84B900030D767 /* GrVkExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkExtensions.h; sourceTree = "<group>"; };
+		DAD50FD124C84B900030D767 /* GrVkMemoryAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkMemoryAllocator.h; sourceTree = "<group>"; };
+		DAD50FD224C84B900030D767 /* GrVkVulkan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkVulkan.h; sourceTree = "<group>"; };
+		DAD50FD324C84B900030D767 /* GrConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrConfig.h; sourceTree = "<group>"; };
+		DAD50FD424C84B900030D767 /* GrDriverBugWorkarounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrDriverBugWorkarounds.h; sourceTree = "<group>"; };
+		DAD50FD524C84B900030D767 /* GrContextOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContextOptions.h; sourceTree = "<group>"; };
+		DAD50FD624C84B900030D767 /* GrBackendDrawableInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendDrawableInfo.h; sourceTree = "<group>"; };
+		DAD50FD824C84B900030D767 /* GrGLExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLExtensions.h; sourceTree = "<group>"; };
+		DAD50FD924C84B900030D767 /* GrGLAssembleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLAssembleInterface.h; sourceTree = "<group>"; };
+		DAD50FDA24C84B900030D767 /* GrGLTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLTypes.h; sourceTree = "<group>"; };
+		DAD50FDB24C84B900030D767 /* GrGLConfig_chrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLConfig_chrome.h; sourceTree = "<group>"; };
+		DAD50FDC24C84B900030D767 /* GrGLConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLConfig.h; sourceTree = "<group>"; };
+		DAD50FDD24C84B900030D767 /* GrGLFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLFunctions.h; sourceTree = "<group>"; };
+		DAD50FDE24C84B900030D767 /* GrGLAssembleHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLAssembleHelpers.h; sourceTree = "<group>"; };
+		DAD50FDF24C84B900030D767 /* GrGLInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLInterface.h; sourceTree = "<group>"; };
+		DAD50FE124C84B900030D767 /* GrMtlTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrMtlTypes.h; sourceTree = "<group>"; };
+		DAD50FE224C84B900030D767 /* GrBackendSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrBackendSurface.h; sourceTree = "<group>"; };
+		DAD50FE424C84B900030D767 /* GrDawnTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrDawnTypes.h; sourceTree = "<group>"; };
+		DAD50FE624C84B900030D767 /* GrD3DTypesMinimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DTypesMinimal.h; sourceTree = "<group>"; };
+		DAD50FE724C84B900030D767 /* GrD3DBackendContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DBackendContext.h; sourceTree = "<group>"; };
+		DAD50FE824C84B900030D767 /* GrD3DTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DTypes.h; sourceTree = "<group>"; };
+		DAD50FEA24C84B900030D767 /* SkImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImage.h; sourceTree = "<group>"; };
+		DAD50FEB24C84B900030D767 /* SkRRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRRect.h; sourceTree = "<group>"; };
+		DAD50FEC24C84B900030D767 /* SkMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMatrix.h; sourceTree = "<group>"; };
+		DAD50FED24C84B900030D767 /* SkColorSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorSpace.h; sourceTree = "<group>"; };
+		DAD50FEE24C84B900030D767 /* SkPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPaint.h; sourceTree = "<group>"; };
+		DAD50FEF24C84B900030D767 /* SkFontMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr.h; sourceTree = "<group>"; };
+		DAD50FF024C84B900030D767 /* SkCoverageMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCoverageMode.h; sourceTree = "<group>"; };
+		DAD50FF124C84B900030D767 /* SkImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageInfo.h; sourceTree = "<group>"; };
+		DAD50FF224C84B900030D767 /* SkStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkStream.h; sourceTree = "<group>"; };
+		DAD50FF324C84B900030D767 /* SkPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPicture.h; sourceTree = "<group>"; };
+		DAD50FF424C84B900030D767 /* SkContourMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkContourMeasure.h; sourceTree = "<group>"; };
+		DAD50FF524C84B900030D767 /* SkUnPreMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkUnPreMultiply.h; sourceTree = "<group>"; };
+		DAD50FF624C84B900030D767 /* SkPictureRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPictureRecorder.h; sourceTree = "<group>"; };
+		DAD50FF724C84B900030D767 /* SkScalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkScalar.h; sourceTree = "<group>"; };
+		DAD50FF824C84B900030D767 /* SkEncodedImageFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncodedImageFormat.h; sourceTree = "<group>"; };
+		DAD50FF924C84B900030D767 /* SkPngChunkReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPngChunkReader.h; sourceTree = "<group>"; };
+		DAD50FFA24C84B900030D767 /* SkBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlendMode.h; sourceTree = "<group>"; };
+		DAD50FFB24C84B900030D767 /* SkMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMaskFilter.h; sourceTree = "<group>"; };
+		DAD50FFC24C84B900030D767 /* SkCanvasVirtualEnforcer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCanvasVirtualEnforcer.h; sourceTree = "<group>"; };
+		DAD50FFD24C84B900030D767 /* SkSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSwizzle.h; sourceTree = "<group>"; };
+		DAD50FFE24C84B900030D767 /* SkMilestone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMilestone.h; sourceTree = "<group>"; };
+		DAD50FFF24C84B900030D767 /* SkImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageFilter.h; sourceTree = "<group>"; };
+		DAD5100024C84B900030D767 /* SkTraceMemoryDump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTraceMemoryDump.h; sourceTree = "<group>"; };
+		DAD5100124C84B900030D767 /* SkPixelRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPixelRef.h; sourceTree = "<group>"; };
+		DAD5100224C84B900030D767 /* SkPoint3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPoint3.h; sourceTree = "<group>"; };
+		DAD5100324C84B900030D767 /* SkFontTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontTypes.h; sourceTree = "<group>"; };
+		DAD5100424C84B900030D767 /* SkFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFont.h; sourceTree = "<group>"; };
+		DAD5100524C84B900030D767 /* SkOverdrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOverdrawCanvas.h; sourceTree = "<group>"; };
+		DAD5100624C84B900030D767 /* SkFontStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontStyle.h; sourceTree = "<group>"; };
+		DAD5100724C84B900030D767 /* SkSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSurface.h; sourceTree = "<group>"; };
+		DAD5100824C84B900030D767 /* SkShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShader.h; sourceTree = "<group>"; };
+		DAD5100924C84B900030D767 /* SkRSXform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRSXform.h; sourceTree = "<group>"; };
+		DAD5100A24C84B900030D767 /* SkMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMath.h; sourceTree = "<group>"; };
+		DAD5100B24C84B900030D767 /* SkClipOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkClipOp.h; sourceTree = "<group>"; };
+		DAD5100C24C84B900030D767 /* SkDrawLooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDrawLooper.h; sourceTree = "<group>"; };
+		DAD5100D24C84B900030D767 /* SkStrokeRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkStrokeRec.h; sourceTree = "<group>"; };
+		DAD5100E24C84B900030D767 /* SkFontParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontParameters.h; sourceTree = "<group>"; };
+		DAD5100F24C84B900030D767 /* SkAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAnnotation.h; sourceTree = "<group>"; };
+		DAD5101024C84B900030D767 /* SkMallocPixelRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMallocPixelRef.h; sourceTree = "<group>"; };
+		DAD5101124C84B900030D767 /* SkMatrix44.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMatrix44.h; sourceTree = "<group>"; };
+		DAD5101224C84B900030D767 /* SkRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRect.h; sourceTree = "<group>"; };
+		DAD5101324C84B900030D767 /* SkFontLCDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontLCDConfig.h; sourceTree = "<group>"; };
+		DAD5101424C84B900030D767 /* SkDrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDrawable.h; sourceTree = "<group>"; };
+		DAD5101524C84B900030D767 /* SkTileMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTileMode.h; sourceTree = "<group>"; };
+		DAD5101624C84B900030D767 /* SkTypeface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypeface.h; sourceTree = "<group>"; };
+		DAD5101724C84B900030D767 /* SkPathMeasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathMeasure.h; sourceTree = "<group>"; };
+		DAD5101824C84B900030D767 /* SkRasterHandleAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRasterHandleAllocator.h; sourceTree = "<group>"; };
+		DAD5101924C84B900030D767 /* SkGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGraphics.h; sourceTree = "<group>"; };
+		DAD5101A24C84B900030D767 /* SkColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColor.h; sourceTree = "<group>"; };
+		DAD5101B24C84B900030D767 /* SkTextBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTextBlob.h; sourceTree = "<group>"; };
+		DAD5101C24C84B900030D767 /* SkString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkString.h; sourceTree = "<group>"; };
+		DAD5101D24C84B900030D767 /* SkDeferredDisplayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDeferredDisplayList.h; sourceTree = "<group>"; };
+		DAD5101E24C84B900030D767 /* SkCubicMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCubicMap.h; sourceTree = "<group>"; };
+		DAD5101F24C84B900030D767 /* SkICC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkICC.h; sourceTree = "<group>"; };
+		DAD5102024C84B900030D767 /* SkRWBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRWBuffer.h; sourceTree = "<group>"; };
+		DAD5102124C84B900030D767 /* SkPromiseImageTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPromiseImageTexture.h; sourceTree = "<group>"; };
+		DAD5102224C84B900030D767 /* SkRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRegion.h; sourceTree = "<group>"; };
+		DAD5102324C84B900030D767 /* SkDeferredDisplayListRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDeferredDisplayListRecorder.h; sourceTree = "<group>"; };
+		DAD5102424C84B900030D767 /* SkImageGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageGenerator.h; sourceTree = "<group>"; };
+		DAD5102524C84B900030D767 /* SkCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCanvas.h; sourceTree = "<group>"; };
+		DAD5102624C84B900030D767 /* SkFilterQuality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFilterQuality.h; sourceTree = "<group>"; };
+		DAD5102724C84B900030D767 /* SkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkData.h; sourceTree = "<group>"; };
+		DAD5102824C84B900030D767 /* SkBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBitmap.h; sourceTree = "<group>"; };
+		DAD5102924C84B900030D767 /* SkColorPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorPriv.h; sourceTree = "<group>"; };
+		DAD5102A24C84B900030D767 /* SkVertices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkVertices.h; sourceTree = "<group>"; };
+		DAD5102B24C84B900030D767 /* SkPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPath.h; sourceTree = "<group>"; };
+		DAD5102C24C84B900030D767 /* SkSurfaceCharacterization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSurfaceCharacterization.h; sourceTree = "<group>"; };
+		DAD5102D24C84B900030D767 /* SkFontArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontArguments.h; sourceTree = "<group>"; };
+		DAD5102E24C84B900030D767 /* SkExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkExecutor.h; sourceTree = "<group>"; };
+		DAD5102F24C84B900030D767 /* SkTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypes.h; sourceTree = "<group>"; };
+		DAD5103024C84B900030D767 /* SkRefCnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRefCnt.h; sourceTree = "<group>"; };
+		DAD5103124C84B900030D767 /* SkYUVAIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkYUVAIndex.h; sourceTree = "<group>"; };
+		DAD5103224C84B900030D767 /* SkDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDataTable.h; sourceTree = "<group>"; };
+		DAD5103324C84B900030D767 /* SkColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorFilter.h; sourceTree = "<group>"; };
+		DAD5103424C84B900030D767 /* SkPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPoint.h; sourceTree = "<group>"; };
+		DAD5103524C84B900030D767 /* SkBBHFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBBHFactory.h; sourceTree = "<group>"; };
+		DAD5103624C84B900030D767 /* SkSerialProcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSerialProcs.h; sourceTree = "<group>"; };
+		DAD5103724C84B900030D767 /* SkPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathEffect.h; sourceTree = "<group>"; };
+		DAD5103824C84B900030D767 /* SkImageEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageEncoder.h; sourceTree = "<group>"; };
+		DAD5103924C84B900030D767 /* SkFontMetrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMetrics.h; sourceTree = "<group>"; };
+		DAD5103A24C84B900030D767 /* SkPathTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathTypes.h; sourceTree = "<group>"; };
+		DAD5103B24C84B900030D767 /* SkSurfaceProps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSurfaceProps.h; sourceTree = "<group>"; };
+		DAD5103C24C84B900030D767 /* SkBlurTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlurTypes.h; sourceTree = "<group>"; };
+		DAD5103D24C84B900030D767 /* SkTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTime.h; sourceTree = "<group>"; };
+		DAD5103E24C84B900030D767 /* SkDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDocument.h; sourceTree = "<group>"; };
+		DAD5103F24C84B900030D767 /* SkM44.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkM44.h; sourceTree = "<group>"; };
+		DAD5104024C84B900030D767 /* SkFlattenable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFlattenable.h; sourceTree = "<group>"; };
+		DAD5104124C84B900030D767 /* SkSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSize.h; sourceTree = "<group>"; };
+		DAD5104224C84B900030D767 /* SkPixmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPixmap.h; sourceTree = "<group>"; };
+		DAD5104324C84B900030D767 /* SkYUVASizeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkYUVASizeInfo.h; sourceTree = "<group>"; };
+		DAD5104524C84B900030D767 /* SkPathOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathOps.h; sourceTree = "<group>"; };
+		DAD5104724C84B900030D767 /* SkUserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkUserConfig.h; sourceTree = "<group>"; };
+		DAD5104924C84B900030D767 /* SkCodecAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCodecAnimation.h; sourceTree = "<group>"; };
+		DAD5104A24C84B900030D767 /* SkEncodedOrigin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncodedOrigin.h; sourceTree = "<group>"; };
+		DAD5104B24C84B900030D767 /* SkCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCodec.h; sourceTree = "<group>"; };
+		DAD5104C24C84B900030D767 /* SkAndroidCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAndroidCodec.h; sourceTree = "<group>"; };
+		DAD5104E24C84B900030D767 /* SkJpegEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkJpegEncoder.h; sourceTree = "<group>"; };
+		DAD5104F24C84B900030D767 /* SkWebpEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkWebpEncoder.h; sourceTree = "<group>"; };
+		DAD5105024C84B900030D767 /* SkEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncoder.h; sourceTree = "<group>"; };
+		DAD5105124C84B900030D767 /* SkPngEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPngEncoder.h; sourceTree = "<group>"; };
+		DAD5105324C84B900030D767 /* SkNoDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNoDrawCanvas.h; sourceTree = "<group>"; };
+		DAD5105424C84B900030D767 /* SkTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTextUtils.h; sourceTree = "<group>"; };
+		DAD5105524C84B900030D767 /* SkNullCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNullCanvas.h; sourceTree = "<group>"; };
+		DAD5105624C84B900030D767 /* SkCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCamera.h; sourceTree = "<group>"; };
+		DAD5105724C84B900030D767 /* SkCustomTypeface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCustomTypeface.h; sourceTree = "<group>"; };
+		DAD5105824C84B900030D767 /* SkLua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLua.h; sourceTree = "<group>"; };
+		DAD5105924C84B900030D767 /* SkBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBase64.h; sourceTree = "<group>"; };
+		DAD5105A24C84B900030D767 /* SkAnimCodecPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAnimCodecPlayer.h; sourceTree = "<group>"; };
+		DAD5105B24C84B900030D767 /* SkParsePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkParsePath.h; sourceTree = "<group>"; };
+		DAD5105C24C84B900030D767 /* SkCanvasStateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCanvasStateUtils.h; sourceTree = "<group>"; };
+		DAD5105D24C84B900030D767 /* SkEventTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEventTracer.h; sourceTree = "<group>"; };
+		DAD5105F24C84B900030D767 /* SkCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCGUtils.h; sourceTree = "<group>"; };
+		DAD5106024C84B900030D767 /* SkRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRandom.h; sourceTree = "<group>"; };
+		DAD5106124C84B900030D767 /* SkPaintFilterCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPaintFilterCanvas.h; sourceTree = "<group>"; };
+		DAD5106224C84B900030D767 /* SkLuaCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLuaCanvas.h; sourceTree = "<group>"; };
+		DAD5106324C84B900030D767 /* SkParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkParse.h; sourceTree = "<group>"; };
+		DAD5106424C84B900030D767 /* SkTraceEventPhase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTraceEventPhase.h; sourceTree = "<group>"; };
+		DAD5106524C84B900030D767 /* SkShadowUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShadowUtils.h; sourceTree = "<group>"; };
+		DAD5106624C84B900030D767 /* SkNWayCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNWayCanvas.h; sourceTree = "<group>"; };
+		DAD5106724C84B900030D767 /* SkInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkInterpolator.h; sourceTree = "<group>"; };
+		DAD5106924C84B900030D767 /* SkPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPDFDocument.h; sourceTree = "<group>"; };
+		DAD5106A24C84B900030D767 /* SkXPSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkXPSDocument.h; sourceTree = "<group>"; };
+		DAD5106D24C84B900030D767 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DAD5106E24C84B900030D767 /* skcms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = skcms.h; sourceTree = "<group>"; };
+		DAD5107024C84B900030D767 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DAD5107224C84B900030D767 /* vulkan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan.h; sourceTree = "<group>"; };
+		DAD5107324C84B900030D767 /* vk_platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vk_platform.h; sourceTree = "<group>"; };
+		DAD5107424C84B900030D767 /* vulkan_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_win32.h; sourceTree = "<group>"; };
+		DAD5107524C84B900030D767 /* vulkan_macos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_macos.h; sourceTree = "<group>"; };
+		DAD5107624C84B900030D767 /* vulkan_xcb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_xcb.h; sourceTree = "<group>"; };
+		DAD5107724C84B900030D767 /* vulkan_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_ios.h; sourceTree = "<group>"; };
+		DAD5107824C84B900030D767 /* vulkan_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_core.h; sourceTree = "<group>"; };
+		DAD5107924C84B900030D767 /* vulkan_android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vulkan_android.h; sourceTree = "<group>"; };
+		DAD5107B24C84B900030D767 /* SkNx_sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNx_sse.h; sourceTree = "<group>"; };
+		DAD5107C24C84B900030D767 /* SkColorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorData.h; sourceTree = "<group>"; };
+		DAD5107D24C84B900030D767 /* SkSafe32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSafe32.h; sourceTree = "<group>"; };
+		DAD5107E24C84B900030D767 /* GrResourceKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrResourceKey.h; sourceTree = "<group>"; };
+		DAD5107F24C84B900030D767 /* SkFloatingPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFloatingPoint.h; sourceTree = "<group>"; };
+		DAD5108024C84B900030D767 /* SkMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMutex.h; sourceTree = "<group>"; };
+		DAD5108124C84B900030D767 /* SkThreadAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkThreadAnnotations.h; sourceTree = "<group>"; };
+		DAD5108224C84B900030D767 /* SkPathRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPathRef.h; sourceTree = "<group>"; };
+		DAD5108324C84B900030D767 /* SkTemplates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTemplates.h; sourceTree = "<group>"; };
+		DAD5108424C84B900030D767 /* SkWeakRefCnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkWeakRefCnt.h; sourceTree = "<group>"; };
+		DAD5108524C84B900030D767 /* SkDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDeque.h; sourceTree = "<group>"; };
+		DAD5108624C84B900030D767 /* SkMalloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMalloc.h; sourceTree = "<group>"; };
+		DAD5108724C84B900030D767 /* SkTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTo.h; sourceTree = "<group>"; };
+		DAD5108824C84B900030D767 /* SkOnce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOnce.h; sourceTree = "<group>"; };
+		DAD5108924C84B900030D767 /* SkImageInfoPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageInfoPriv.h; sourceTree = "<group>"; };
+		DAD5108A24C84B900030D767 /* SkSpinlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSpinlock.h; sourceTree = "<group>"; };
+		DAD5108B24C84B900030D767 /* GrImageContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrImageContext.h; sourceTree = "<group>"; };
+		DAD5108C24C84B900030D767 /* SkTHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTHash.h; sourceTree = "<group>"; };
+		DAD5108D24C84B900030D767 /* SkNoncopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNoncopyable.h; sourceTree = "<group>"; };
+		DAD5108E24C84B900030D767 /* SkNx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNx.h; sourceTree = "<group>"; };
+		DAD5108F24C84B900030D767 /* GrSingleOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrSingleOwner.h; sourceTree = "<group>"; };
+		DAD5109024C84B900030D767 /* GrTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrTypesPriv.h; sourceTree = "<group>"; };
+		DAD5109124C84B900030D767 /* SkVx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkVx.h; sourceTree = "<group>"; };
+		DAD5109224C84B900030D767 /* GrGLTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrGLTypesPriv.h; sourceTree = "<group>"; };
+		DAD5109324C84B900030D767 /* SkSafe_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSafe_math.h; sourceTree = "<group>"; };
+		DAD5109424C84B900030D767 /* SkTDArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTDArray.h; sourceTree = "<group>"; };
+		DAD5109524C84B900030D767 /* SkShadowFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShadowFlags.h; sourceTree = "<group>"; };
+		DAD5109624C84B900030D767 /* GrD3DTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrD3DTypesPriv.h; sourceTree = "<group>"; };
+		DAD5109724C84B900030D767 /* SkOpts_spi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOpts_spi.h; sourceTree = "<group>"; };
+		DAD5109824C84B900030D767 /* SkTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTArray.h; sourceTree = "<group>"; };
+		DAD5109924C84B900030D767 /* SkTLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTLogic.h; sourceTree = "<group>"; };
+		DAD5109A24C84B900030D767 /* SkBitmaskEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBitmaskEnum.h; sourceTree = "<group>"; };
+		DAD5109B24C84B900030D767 /* GrSharedEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrSharedEnums.h; sourceTree = "<group>"; };
+		DAD5109C24C84B900030D767 /* GrContext_Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrContext_Base.h; sourceTree = "<group>"; };
+		DAD5109D24C84B900030D767 /* SkThreadID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkThreadID.h; sourceTree = "<group>"; };
+		DAD5109E24C84B900030D767 /* SkChecksum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkChecksum.h; sourceTree = "<group>"; };
+		DAD5109F24C84B900030D767 /* SkEncodedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkEncodedInfo.h; sourceTree = "<group>"; };
+		DAD510A024C84B900030D767 /* SkFloatBits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFloatBits.h; sourceTree = "<group>"; };
+		DAD510A124C84B900030D767 /* GrRecordingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrRecordingContext.h; sourceTree = "<group>"; };
+		DAD510A224C84B900030D767 /* SkTFitsIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTFitsIn.h; sourceTree = "<group>"; };
+		DAD510A324C84B900030D767 /* SkMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMacros.h; sourceTree = "<group>"; };
+		DAD510A424C84B900030D767 /* SkNx_neon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkNx_neon.h; sourceTree = "<group>"; };
+		DAD510A524C84B900030D767 /* SkFixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFixed.h; sourceTree = "<group>"; };
+		DAD510A624C84B900030D767 /* SkSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkSemaphore.h; sourceTree = "<group>"; };
+		DAD510A724C84B900030D767 /* SkIDChangeListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkIDChangeListener.h; sourceTree = "<group>"; };
+		DAD510A824C84B900030D767 /* SkHalf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkHalf.h; sourceTree = "<group>"; };
+		DAD510A924C84B900030D767 /* GrVkTypesPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrVkTypesPriv.h; sourceTree = "<group>"; };
+		DAD510AB24C84B900030D767 /* SkAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAnimatedImage.h; sourceTree = "<group>"; };
+		DAD510AC24C84B900030D767 /* SkAndroidFrameworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAndroidFrameworkUtils.h; sourceTree = "<group>"; };
+		DAD510AE24C84B900030D767 /* SkAlphaThresholdFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkAlphaThresholdFilter.h; sourceTree = "<group>"; };
+		DAD510AF24C84B900030D767 /* SkShaderMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkShaderMaskFilter.h; sourceTree = "<group>"; };
+		DAD510B024C84B900030D767 /* Sk1DPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sk1DPathEffect.h; sourceTree = "<group>"; };
+		DAD510B124C84B900030D767 /* SkDashPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDashPathEffect.h; sourceTree = "<group>"; };
+		DAD510B224C84B900030D767 /* SkMorphologyImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMorphologyImageFilter.h; sourceTree = "<group>"; };
+		DAD510B324C84B900030D767 /* SkColorMatrixFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorMatrixFilter.h; sourceTree = "<group>"; };
+		DAD510B424C84B900030D767 /* SkMatrixConvolutionImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMatrixConvolutionImageFilter.h; sourceTree = "<group>"; };
+		DAD510B524C84B900030D767 /* SkGradientShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkGradientShader.h; sourceTree = "<group>"; };
+		DAD510B624C84B900030D767 /* SkOpPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOpPathEffect.h; sourceTree = "<group>"; };
+		DAD510B724C84B900030D767 /* SkTableMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTableMaskFilter.h; sourceTree = "<group>"; };
+		DAD510B824C84B900030D767 /* SkXfermodeImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkXfermodeImageFilter.h; sourceTree = "<group>"; };
+		DAD510B924C84B900030D767 /* SkDropShadowImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDropShadowImageFilter.h; sourceTree = "<group>"; };
+		DAD510BA24C84B900030D767 /* SkColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorMatrix.h; sourceTree = "<group>"; };
+		DAD510BB24C84B900030D767 /* SkPerlinNoiseShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPerlinNoiseShader.h; sourceTree = "<group>"; };
+		DAD510BC24C84B900030D767 /* SkTileImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTileImageFilter.h; sourceTree = "<group>"; };
+		DAD510BD24C84B900030D767 /* SkPaintImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPaintImageFilter.h; sourceTree = "<group>"; };
+		DAD510BE24C84B900030D767 /* SkStrokeAndFillPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkStrokeAndFillPathEffect.h; sourceTree = "<group>"; };
+		DAD510BF24C84B900030D767 /* SkCornerPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCornerPathEffect.h; sourceTree = "<group>"; };
+		DAD510C024C84B900030D767 /* SkOverdrawColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOverdrawColorFilter.h; sourceTree = "<group>"; };
+		DAD510C124C84B900030D767 /* SkDisplacementMapEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDisplacementMapEffect.h; sourceTree = "<group>"; };
+		DAD510C224C84B900030D767 /* SkDiscretePathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkDiscretePathEffect.h; sourceTree = "<group>"; };
+		DAD510C324C84B900030D767 /* SkMergeImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMergeImageFilter.h; sourceTree = "<group>"; };
+		DAD510C424C84B900030D767 /* SkOffsetImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkOffsetImageFilter.h; sourceTree = "<group>"; };
+		DAD510C524C84B900030D767 /* SkImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageSource.h; sourceTree = "<group>"; };
+		DAD510C624C84B900030D767 /* SkBlurMaskFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlurMaskFilter.h; sourceTree = "<group>"; };
+		DAD510C724C84B900030D767 /* SkLumaColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLumaColorFilter.h; sourceTree = "<group>"; };
+		DAD510C824C84B900030D767 /* SkTableColorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTableColorFilter.h; sourceTree = "<group>"; };
+		DAD510C924C84B900030D767 /* SkBlurImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlurImageFilter.h; sourceTree = "<group>"; };
+		DAD510CA24C84B900030D767 /* SkRuntimeEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRuntimeEffect.h; sourceTree = "<group>"; };
+		DAD510CB24C84B900030D767 /* SkMagnifierImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkMagnifierImageFilter.h; sourceTree = "<group>"; };
+		DAD510CC24C84B900030D767 /* SkPictureImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkPictureImageFilter.h; sourceTree = "<group>"; };
+		DAD510CD24C84B900030D767 /* SkTrimPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTrimPathEffect.h; sourceTree = "<group>"; };
+		DAD510CE24C84B900030D767 /* SkImageFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageFilters.h; sourceTree = "<group>"; };
+		DAD510CF24C84B900030D767 /* SkComposeImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkComposeImageFilter.h; sourceTree = "<group>"; };
+		DAD510D024C84B900030D767 /* Sk2DPathEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sk2DPathEffect.h; sourceTree = "<group>"; };
+		DAD510D124C84B900030D767 /* SkArithmeticImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkArithmeticImageFilter.h; sourceTree = "<group>"; };
+		DAD510D224C84B900030D767 /* SkLayerDrawLooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLayerDrawLooper.h; sourceTree = "<group>"; };
+		DAD510D324C84B900030D767 /* SkColorFilterImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkColorFilterImageFilter.h; sourceTree = "<group>"; };
+		DAD510D424C84B900030D767 /* SkBlurDrawLooper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkBlurDrawLooper.h; sourceTree = "<group>"; };
+		DAD510D524C84B900030D767 /* SkLightingImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkLightingImageFilter.h; sourceTree = "<group>"; };
+		DAD510D624C84B900030D767 /* SkHighContrastFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkHighContrastFilter.h; sourceTree = "<group>"; };
+		DAD510D824C84B900030D767 /* SkFontMgr_directory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_directory.h; sourceTree = "<group>"; };
+		DAD510D924C84B900030D767 /* SkFontMgr_indirect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_indirect.h; sourceTree = "<group>"; };
+		DAD510DA24C84B900030D767 /* SkImageGeneratorWIC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageGeneratorWIC.h; sourceTree = "<group>"; };
+		DAD510DB24C84B900030D767 /* SkFontConfigInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontConfigInterface.h; sourceTree = "<group>"; };
+		DAD510DC24C84B900030D767 /* SkFontMgr_empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_empty.h; sourceTree = "<group>"; };
+		DAD510DD24C84B900030D767 /* SkTypeface_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypeface_win.h; sourceTree = "<group>"; };
+		DAD510DE24C84B900030D767 /* SkTypeface_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkTypeface_mac.h; sourceTree = "<group>"; };
+		DAD510DF24C84B900030D767 /* SkRemotableFontMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkRemotableFontMgr.h; sourceTree = "<group>"; };
+		DAD510E024C84B900030D767 /* SkFontMgr_fuchsia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_fuchsia.h; sourceTree = "<group>"; };
+		DAD510E124C84B900030D767 /* SkImageGeneratorCG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkImageGeneratorCG.h; sourceTree = "<group>"; };
+		DAD510E224C84B900030D767 /* SkFontMgr_fontconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_fontconfig.h; sourceTree = "<group>"; };
+		DAD510E324C84B900030D767 /* SkCFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkCFObject.h; sourceTree = "<group>"; };
+		DAD510E424C84B900030D767 /* SkFontMgr_mac_ct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_mac_ct.h; sourceTree = "<group>"; };
+		DAD510E524C84B900030D767 /* SkFontMgr_android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_android.h; sourceTree = "<group>"; };
+		DAD510E624C84B900030D767 /* SkFontMgr_FontConfigInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkFontMgr_FontConfigInterface.h; sourceTree = "<group>"; };
+		DAD510E824C84B900030D767 /* sk_matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_matrix.h; sourceTree = "<group>"; };
+		DAD510E924C84B900030D767 /* sk_path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_path.h; sourceTree = "<group>"; };
+		DAD510EA24C84B900030D767 /* sk_colorspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_colorspace.h; sourceTree = "<group>"; };
+		DAD510EB24C84B900030D767 /* sk_maskfilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_maskfilter.h; sourceTree = "<group>"; };
+		DAD510EC24C84B900030D767 /* sk_shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_shader.h; sourceTree = "<group>"; };
+		DAD510ED24C84B900030D767 /* sk_imageinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_imageinfo.h; sourceTree = "<group>"; };
+		DAD510EE24C84B900030D767 /* sk_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_data.h; sourceTree = "<group>"; };
+		DAD510EF24C84B900030D767 /* sk_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_image.h; sourceTree = "<group>"; };
+		DAD510F024C84B900030D767 /* sk_paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_paint.h; sourceTree = "<group>"; };
+		DAD510F124C84B900030D767 /* sk_surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_surface.h; sourceTree = "<group>"; };
+		DAD510F224C84B900030D767 /* sk_picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_picture.h; sourceTree = "<group>"; };
+		DAD510F324C84B900030D767 /* sk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_types.h; sourceTree = "<group>"; };
+		DAD510F424C84B900030D767 /* sk_canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sk_canvas.h; sourceTree = "<group>"; };
+		DAD510F824C84BA80030D767 /* libskia.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libskia.dylib; path = KotlinIOS/Frameworks/libskia.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47729DFF22F447C800B9B36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD510F924C84BA80030D767 /* libskia.dylib in Frameworks */,
+				47729E6E22F4806C00B9B36B /* SharedCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47729E1322F447CA00B9B36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47729E1E22F447CA00B9B36B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47729DF922F447C800B9B36B = {
+			isa = PBXGroup;
+			children = (
+				DAD50FC024C84B900030D767 /* skia */,
+				47729E6D22F4806B00B9B36B /* SharedCode.framework */,
+				47729E0422F447C800B9B36B /* KotlinIOS */,
+				47729E1922F447CA00B9B36B /* KotlinIOSTests */,
+				47729E2422F447CA00B9B36B /* KotlinIOSUITests */,
+				47729E0322F447C800B9B36B /* Products */,
+				DAD510F724C84BA70030D767 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47729E0322F447C800B9B36B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47729E0222F447C800B9B36B /* KotlinIOS.app */,
+				47729E1622F447CA00B9B36B /* KotlinIOSTests.xctest */,
+				47729E2122F447CA00B9B36B /* KotlinIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47729E0422F447C800B9B36B /* KotlinIOS */ = {
+			isa = PBXGroup;
+			children = (
+				47729E0522F447C800B9B36B /* AppDelegate.swift */,
+				47729E0722F447C800B9B36B /* ViewController.swift */,
+				47729E0922F447C800B9B36B /* Main.storyboard */,
+				47729E0C22F447CA00B9B36B /* Assets.xcassets */,
+				47729E0E22F447CA00B9B36B /* LaunchScreen.storyboard */,
+				47729E1122F447CA00B9B36B /* Info.plist */,
+			);
+			path = KotlinIOS;
+			sourceTree = "<group>";
+		};
+		47729E1922F447CA00B9B36B /* KotlinIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				47729E1A22F447CA00B9B36B /* KotlinIOSTests.swift */,
+				47729E1C22F447CA00B9B36B /* Info.plist */,
+			);
+			path = KotlinIOSTests;
+			sourceTree = "<group>";
+		};
+		47729E2422F447CA00B9B36B /* KotlinIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47729E2522F447CA00B9B36B /* KotlinIOSUITests.swift */,
+				47729E2722F447CA00B9B36B /* Info.plist */,
+			);
+			path = KotlinIOSUITests;
+			sourceTree = "<group>";
+		};
+		DAD50FC024C84B900030D767 /* skia */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FC124C84B900030D767 /* include */,
+			);
+			path = skia;
+			sourceTree = "<group>";
+		};
+		DAD50FC124C84B900030D767 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FC224C84B900030D767 /* svg */,
+				DAD50FC424C84B900030D767 /* gpu */,
+				DAD50FE924C84B900030D767 /* core */,
+				DAD5104424C84B900030D767 /* pathops */,
+				DAD5104624C84B900030D767 /* config */,
+				DAD5104824C84B900030D767 /* codec */,
+				DAD5104D24C84B900030D767 /* encode */,
+				DAD5105224C84B900030D767 /* utils */,
+				DAD5106824C84B900030D767 /* docs */,
+				DAD5106B24C84B900030D767 /* third_party */,
+				DAD5107A24C84B900030D767 /* private */,
+				DAD510AA24C84B900030D767 /* android */,
+				DAD510AD24C84B900030D767 /* effects */,
+				DAD510D724C84B900030D767 /* ports */,
+				DAD510E724C84B900030D767 /* c */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DAD50FC224C84B900030D767 /* svg */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FC324C84B900030D767 /* SkSVGCanvas.h */,
+			);
+			path = svg;
+			sourceTree = "<group>";
+		};
+		DAD50FC424C84B900030D767 /* gpu */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FC524C84B900030D767 /* GrContextThreadSafeProxy.h */,
+				DAD50FC624C84B900030D767 /* GrBackendSurfaceMutableState.h */,
+				DAD50FC724C84B900030D767 /* GrBackendSemaphore.h */,
+				DAD50FC824C84B900030D767 /* GrContext.h */,
+				DAD50FC924C84B900030D767 /* mock */,
+				DAD50FCB24C84B900030D767 /* GrDriverBugWorkaroundsAutogen.h */,
+				DAD50FCC24C84B900030D767 /* GrTypes.h */,
+				DAD50FCD24C84B900030D767 /* vk */,
+				DAD50FD324C84B900030D767 /* GrConfig.h */,
+				DAD50FD424C84B900030D767 /* GrDriverBugWorkarounds.h */,
+				DAD50FD524C84B900030D767 /* GrContextOptions.h */,
+				DAD50FD624C84B900030D767 /* GrBackendDrawableInfo.h */,
+				DAD50FD724C84B900030D767 /* gl */,
+				DAD50FE024C84B900030D767 /* mtl */,
+				DAD50FE224C84B900030D767 /* GrBackendSurface.h */,
+				DAD50FE324C84B900030D767 /* dawn */,
+				DAD50FE524C84B900030D767 /* d3d */,
+			);
+			path = gpu;
+			sourceTree = "<group>";
+		};
+		DAD50FC924C84B900030D767 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FCA24C84B900030D767 /* GrMockTypes.h */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		DAD50FCD24C84B900030D767 /* vk */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FCE24C84B900030D767 /* GrVkTypes.h */,
+				DAD50FCF24C84B900030D767 /* GrVkBackendContext.h */,
+				DAD50FD024C84B900030D767 /* GrVkExtensions.h */,
+				DAD50FD124C84B900030D767 /* GrVkMemoryAllocator.h */,
+				DAD50FD224C84B900030D767 /* GrVkVulkan.h */,
+			);
+			path = vk;
+			sourceTree = "<group>";
+		};
+		DAD50FD724C84B900030D767 /* gl */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FD824C84B900030D767 /* GrGLExtensions.h */,
+				DAD50FD924C84B900030D767 /* GrGLAssembleInterface.h */,
+				DAD50FDA24C84B900030D767 /* GrGLTypes.h */,
+				DAD50FDB24C84B900030D767 /* GrGLConfig_chrome.h */,
+				DAD50FDC24C84B900030D767 /* GrGLConfig.h */,
+				DAD50FDD24C84B900030D767 /* GrGLFunctions.h */,
+				DAD50FDE24C84B900030D767 /* GrGLAssembleHelpers.h */,
+				DAD50FDF24C84B900030D767 /* GrGLInterface.h */,
+			);
+			path = gl;
+			sourceTree = "<group>";
+		};
+		DAD50FE024C84B900030D767 /* mtl */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FE124C84B900030D767 /* GrMtlTypes.h */,
+			);
+			path = mtl;
+			sourceTree = "<group>";
+		};
+		DAD50FE324C84B900030D767 /* dawn */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FE424C84B900030D767 /* GrDawnTypes.h */,
+			);
+			path = dawn;
+			sourceTree = "<group>";
+		};
+		DAD50FE524C84B900030D767 /* d3d */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FE624C84B900030D767 /* GrD3DTypesMinimal.h */,
+				DAD50FE724C84B900030D767 /* GrD3DBackendContext.h */,
+				DAD50FE824C84B900030D767 /* GrD3DTypes.h */,
+			);
+			path = d3d;
+			sourceTree = "<group>";
+		};
+		DAD50FE924C84B900030D767 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				DAD50FEA24C84B900030D767 /* SkImage.h */,
+				DAD50FEB24C84B900030D767 /* SkRRect.h */,
+				DAD50FEC24C84B900030D767 /* SkMatrix.h */,
+				DAD50FED24C84B900030D767 /* SkColorSpace.h */,
+				DAD50FEE24C84B900030D767 /* SkPaint.h */,
+				DAD50FEF24C84B900030D767 /* SkFontMgr.h */,
+				DAD50FF024C84B900030D767 /* SkCoverageMode.h */,
+				DAD50FF124C84B900030D767 /* SkImageInfo.h */,
+				DAD50FF224C84B900030D767 /* SkStream.h */,
+				DAD50FF324C84B900030D767 /* SkPicture.h */,
+				DAD50FF424C84B900030D767 /* SkContourMeasure.h */,
+				DAD50FF524C84B900030D767 /* SkUnPreMultiply.h */,
+				DAD50FF624C84B900030D767 /* SkPictureRecorder.h */,
+				DAD50FF724C84B900030D767 /* SkScalar.h */,
+				DAD50FF824C84B900030D767 /* SkEncodedImageFormat.h */,
+				DAD50FF924C84B900030D767 /* SkPngChunkReader.h */,
+				DAD50FFA24C84B900030D767 /* SkBlendMode.h */,
+				DAD50FFB24C84B900030D767 /* SkMaskFilter.h */,
+				DAD50FFC24C84B900030D767 /* SkCanvasVirtualEnforcer.h */,
+				DAD50FFD24C84B900030D767 /* SkSwizzle.h */,
+				DAD50FFE24C84B900030D767 /* SkMilestone.h */,
+				DAD50FFF24C84B900030D767 /* SkImageFilter.h */,
+				DAD5100024C84B900030D767 /* SkTraceMemoryDump.h */,
+				DAD5100124C84B900030D767 /* SkPixelRef.h */,
+				DAD5100224C84B900030D767 /* SkPoint3.h */,
+				DAD5100324C84B900030D767 /* SkFontTypes.h */,
+				DAD5100424C84B900030D767 /* SkFont.h */,
+				DAD5100524C84B900030D767 /* SkOverdrawCanvas.h */,
+				DAD5100624C84B900030D767 /* SkFontStyle.h */,
+				DAD5100724C84B900030D767 /* SkSurface.h */,
+				DAD5100824C84B900030D767 /* SkShader.h */,
+				DAD5100924C84B900030D767 /* SkRSXform.h */,
+				DAD5100A24C84B900030D767 /* SkMath.h */,
+				DAD5100B24C84B900030D767 /* SkClipOp.h */,
+				DAD5100C24C84B900030D767 /* SkDrawLooper.h */,
+				DAD5100D24C84B900030D767 /* SkStrokeRec.h */,
+				DAD5100E24C84B900030D767 /* SkFontParameters.h */,
+				DAD5100F24C84B900030D767 /* SkAnnotation.h */,
+				DAD5101024C84B900030D767 /* SkMallocPixelRef.h */,
+				DAD5101124C84B900030D767 /* SkMatrix44.h */,
+				DAD5101224C84B900030D767 /* SkRect.h */,
+				DAD5101324C84B900030D767 /* SkFontLCDConfig.h */,
+				DAD5101424C84B900030D767 /* SkDrawable.h */,
+				DAD5101524C84B900030D767 /* SkTileMode.h */,
+				DAD5101624C84B900030D767 /* SkTypeface.h */,
+				DAD5101724C84B900030D767 /* SkPathMeasure.h */,
+				DAD5101824C84B900030D767 /* SkRasterHandleAllocator.h */,
+				DAD5101924C84B900030D767 /* SkGraphics.h */,
+				DAD5101A24C84B900030D767 /* SkColor.h */,
+				DAD5101B24C84B900030D767 /* SkTextBlob.h */,
+				DAD5101C24C84B900030D767 /* SkString.h */,
+				DAD5101D24C84B900030D767 /* SkDeferredDisplayList.h */,
+				DAD5101E24C84B900030D767 /* SkCubicMap.h */,
+				DAD5101F24C84B900030D767 /* SkICC.h */,
+				DAD5102024C84B900030D767 /* SkRWBuffer.h */,
+				DAD5102124C84B900030D767 /* SkPromiseImageTexture.h */,
+				DAD5102224C84B900030D767 /* SkRegion.h */,
+				DAD5102324C84B900030D767 /* SkDeferredDisplayListRecorder.h */,
+				DAD5102424C84B900030D767 /* SkImageGenerator.h */,
+				DAD5102524C84B900030D767 /* SkCanvas.h */,
+				DAD5102624C84B900030D767 /* SkFilterQuality.h */,
+				DAD5102724C84B900030D767 /* SkData.h */,
+				DAD5102824C84B900030D767 /* SkBitmap.h */,
+				DAD5102924C84B900030D767 /* SkColorPriv.h */,
+				DAD5102A24C84B900030D767 /* SkVertices.h */,
+				DAD5102B24C84B900030D767 /* SkPath.h */,
+				DAD5102C24C84B900030D767 /* SkSurfaceCharacterization.h */,
+				DAD5102D24C84B900030D767 /* SkFontArguments.h */,
+				DAD5102E24C84B900030D767 /* SkExecutor.h */,
+				DAD5102F24C84B900030D767 /* SkTypes.h */,
+				DAD5103024C84B900030D767 /* SkRefCnt.h */,
+				DAD5103124C84B900030D767 /* SkYUVAIndex.h */,
+				DAD5103224C84B900030D767 /* SkDataTable.h */,
+				DAD5103324C84B900030D767 /* SkColorFilter.h */,
+				DAD5103424C84B900030D767 /* SkPoint.h */,
+				DAD5103524C84B900030D767 /* SkBBHFactory.h */,
+				DAD5103624C84B900030D767 /* SkSerialProcs.h */,
+				DAD5103724C84B900030D767 /* SkPathEffect.h */,
+				DAD5103824C84B900030D767 /* SkImageEncoder.h */,
+				DAD5103924C84B900030D767 /* SkFontMetrics.h */,
+				DAD5103A24C84B900030D767 /* SkPathTypes.h */,
+				DAD5103B24C84B900030D767 /* SkSurfaceProps.h */,
+				DAD5103C24C84B900030D767 /* SkBlurTypes.h */,
+				DAD5103D24C84B900030D767 /* SkTime.h */,
+				DAD5103E24C84B900030D767 /* SkDocument.h */,
+				DAD5103F24C84B900030D767 /* SkM44.h */,
+				DAD5104024C84B900030D767 /* SkFlattenable.h */,
+				DAD5104124C84B900030D767 /* SkSize.h */,
+				DAD5104224C84B900030D767 /* SkPixmap.h */,
+				DAD5104324C84B900030D767 /* SkYUVASizeInfo.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		DAD5104424C84B900030D767 /* pathops */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5104524C84B900030D767 /* SkPathOps.h */,
+			);
+			path = pathops;
+			sourceTree = "<group>";
+		};
+		DAD5104624C84B900030D767 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5104724C84B900030D767 /* SkUserConfig.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		DAD5104824C84B900030D767 /* codec */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5104924C84B900030D767 /* SkCodecAnimation.h */,
+				DAD5104A24C84B900030D767 /* SkEncodedOrigin.h */,
+				DAD5104B24C84B900030D767 /* SkCodec.h */,
+				DAD5104C24C84B900030D767 /* SkAndroidCodec.h */,
+			);
+			path = codec;
+			sourceTree = "<group>";
+		};
+		DAD5104D24C84B900030D767 /* encode */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5104E24C84B900030D767 /* SkJpegEncoder.h */,
+				DAD5104F24C84B900030D767 /* SkWebpEncoder.h */,
+				DAD5105024C84B900030D767 /* SkEncoder.h */,
+				DAD5105124C84B900030D767 /* SkPngEncoder.h */,
+			);
+			path = encode;
+			sourceTree = "<group>";
+		};
+		DAD5105224C84B900030D767 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5105324C84B900030D767 /* SkNoDrawCanvas.h */,
+				DAD5105424C84B900030D767 /* SkTextUtils.h */,
+				DAD5105524C84B900030D767 /* SkNullCanvas.h */,
+				DAD5105624C84B900030D767 /* SkCamera.h */,
+				DAD5105724C84B900030D767 /* SkCustomTypeface.h */,
+				DAD5105824C84B900030D767 /* SkLua.h */,
+				DAD5105924C84B900030D767 /* SkBase64.h */,
+				DAD5105A24C84B900030D767 /* SkAnimCodecPlayer.h */,
+				DAD5105B24C84B900030D767 /* SkParsePath.h */,
+				DAD5105C24C84B900030D767 /* SkCanvasStateUtils.h */,
+				DAD5105D24C84B900030D767 /* SkEventTracer.h */,
+				DAD5105E24C84B900030D767 /* mac */,
+				DAD5106024C84B900030D767 /* SkRandom.h */,
+				DAD5106124C84B900030D767 /* SkPaintFilterCanvas.h */,
+				DAD5106224C84B900030D767 /* SkLuaCanvas.h */,
+				DAD5106324C84B900030D767 /* SkParse.h */,
+				DAD5106424C84B900030D767 /* SkTraceEventPhase.h */,
+				DAD5106524C84B900030D767 /* SkShadowUtils.h */,
+				DAD5106624C84B900030D767 /* SkNWayCanvas.h */,
+				DAD5106724C84B900030D767 /* SkInterpolator.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DAD5105E24C84B900030D767 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5105F24C84B900030D767 /* SkCGUtils.h */,
+			);
+			path = mac;
+			sourceTree = "<group>";
+		};
+		DAD5106824C84B900030D767 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5106924C84B900030D767 /* SkPDFDocument.h */,
+				DAD5106A24C84B900030D767 /* SkXPSDocument.h */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		DAD5106B24C84B900030D767 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5106C24C84B900030D767 /* skcms */,
+				DAD5106F24C84B900030D767 /* vulkan */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		DAD5106C24C84B900030D767 /* skcms */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5106D24C84B900030D767 /* LICENSE */,
+				DAD5106E24C84B900030D767 /* skcms.h */,
+			);
+			path = skcms;
+			sourceTree = "<group>";
+		};
+		DAD5106F24C84B900030D767 /* vulkan */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5107024C84B900030D767 /* LICENSE */,
+				DAD5107124C84B900030D767 /* vulkan */,
+			);
+			path = vulkan;
+			sourceTree = "<group>";
+		};
+		DAD5107124C84B900030D767 /* vulkan */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5107224C84B900030D767 /* vulkan.h */,
+				DAD5107324C84B900030D767 /* vk_platform.h */,
+				DAD5107424C84B900030D767 /* vulkan_win32.h */,
+				DAD5107524C84B900030D767 /* vulkan_macos.h */,
+				DAD5107624C84B900030D767 /* vulkan_xcb.h */,
+				DAD5107724C84B900030D767 /* vulkan_ios.h */,
+				DAD5107824C84B900030D767 /* vulkan_core.h */,
+				DAD5107924C84B900030D767 /* vulkan_android.h */,
+			);
+			path = vulkan;
+			sourceTree = "<group>";
+		};
+		DAD5107A24C84B900030D767 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				DAD5107B24C84B900030D767 /* SkNx_sse.h */,
+				DAD5107C24C84B900030D767 /* SkColorData.h */,
+				DAD5107D24C84B900030D767 /* SkSafe32.h */,
+				DAD5107E24C84B900030D767 /* GrResourceKey.h */,
+				DAD5107F24C84B900030D767 /* SkFloatingPoint.h */,
+				DAD5108024C84B900030D767 /* SkMutex.h */,
+				DAD5108124C84B900030D767 /* SkThreadAnnotations.h */,
+				DAD5108224C84B900030D767 /* SkPathRef.h */,
+				DAD5108324C84B900030D767 /* SkTemplates.h */,
+				DAD5108424C84B900030D767 /* SkWeakRefCnt.h */,
+				DAD5108524C84B900030D767 /* SkDeque.h */,
+				DAD5108624C84B900030D767 /* SkMalloc.h */,
+				DAD5108724C84B900030D767 /* SkTo.h */,
+				DAD5108824C84B900030D767 /* SkOnce.h */,
+				DAD5108924C84B900030D767 /* SkImageInfoPriv.h */,
+				DAD5108A24C84B900030D767 /* SkSpinlock.h */,
+				DAD5108B24C84B900030D767 /* GrImageContext.h */,
+				DAD5108C24C84B900030D767 /* SkTHash.h */,
+				DAD5108D24C84B900030D767 /* SkNoncopyable.h */,
+				DAD5108E24C84B900030D767 /* SkNx.h */,
+				DAD5108F24C84B900030D767 /* GrSingleOwner.h */,
+				DAD5109024C84B900030D767 /* GrTypesPriv.h */,
+				DAD5109124C84B900030D767 /* SkVx.h */,
+				DAD5109224C84B900030D767 /* GrGLTypesPriv.h */,
+				DAD5109324C84B900030D767 /* SkSafe_math.h */,
+				DAD5109424C84B900030D767 /* SkTDArray.h */,
+				DAD5109524C84B900030D767 /* SkShadowFlags.h */,
+				DAD5109624C84B900030D767 /* GrD3DTypesPriv.h */,
+				DAD5109724C84B900030D767 /* SkOpts_spi.h */,
+				DAD5109824C84B900030D767 /* SkTArray.h */,
+				DAD5109924C84B900030D767 /* SkTLogic.h */,
+				DAD5109A24C84B900030D767 /* SkBitmaskEnum.h */,
+				DAD5109B24C84B900030D767 /* GrSharedEnums.h */,
+				DAD5109C24C84B900030D767 /* GrContext_Base.h */,
+				DAD5109D24C84B900030D767 /* SkThreadID.h */,
+				DAD5109E24C84B900030D767 /* SkChecksum.h */,
+				DAD5109F24C84B900030D767 /* SkEncodedInfo.h */,
+				DAD510A024C84B900030D767 /* SkFloatBits.h */,
+				DAD510A124C84B900030D767 /* GrRecordingContext.h */,
+				DAD510A224C84B900030D767 /* SkTFitsIn.h */,
+				DAD510A324C84B900030D767 /* SkMacros.h */,
+				DAD510A424C84B900030D767 /* SkNx_neon.h */,
+				DAD510A524C84B900030D767 /* SkFixed.h */,
+				DAD510A624C84B900030D767 /* SkSemaphore.h */,
+				DAD510A724C84B900030D767 /* SkIDChangeListener.h */,
+				DAD510A824C84B900030D767 /* SkHalf.h */,
+				DAD510A924C84B900030D767 /* GrVkTypesPriv.h */,
+			);
+			path = private;
+			sourceTree = "<group>";
+		};
+		DAD510AA24C84B900030D767 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				DAD510AB24C84B900030D767 /* SkAnimatedImage.h */,
+				DAD510AC24C84B900030D767 /* SkAndroidFrameworkUtils.h */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		DAD510AD24C84B900030D767 /* effects */ = {
+			isa = PBXGroup;
+			children = (
+				DAD510AE24C84B900030D767 /* SkAlphaThresholdFilter.h */,
+				DAD510AF24C84B900030D767 /* SkShaderMaskFilter.h */,
+				DAD510B024C84B900030D767 /* Sk1DPathEffect.h */,
+				DAD510B124C84B900030D767 /* SkDashPathEffect.h */,
+				DAD510B224C84B900030D767 /* SkMorphologyImageFilter.h */,
+				DAD510B324C84B900030D767 /* SkColorMatrixFilter.h */,
+				DAD510B424C84B900030D767 /* SkMatrixConvolutionImageFilter.h */,
+				DAD510B524C84B900030D767 /* SkGradientShader.h */,
+				DAD510B624C84B900030D767 /* SkOpPathEffect.h */,
+				DAD510B724C84B900030D767 /* SkTableMaskFilter.h */,
+				DAD510B824C84B900030D767 /* SkXfermodeImageFilter.h */,
+				DAD510B924C84B900030D767 /* SkDropShadowImageFilter.h */,
+				DAD510BA24C84B900030D767 /* SkColorMatrix.h */,
+				DAD510BB24C84B900030D767 /* SkPerlinNoiseShader.h */,
+				DAD510BC24C84B900030D767 /* SkTileImageFilter.h */,
+				DAD510BD24C84B900030D767 /* SkPaintImageFilter.h */,
+				DAD510BE24C84B900030D767 /* SkStrokeAndFillPathEffect.h */,
+				DAD510BF24C84B900030D767 /* SkCornerPathEffect.h */,
+				DAD510C024C84B900030D767 /* SkOverdrawColorFilter.h */,
+				DAD510C124C84B900030D767 /* SkDisplacementMapEffect.h */,
+				DAD510C224C84B900030D767 /* SkDiscretePathEffect.h */,
+				DAD510C324C84B900030D767 /* SkMergeImageFilter.h */,
+				DAD510C424C84B900030D767 /* SkOffsetImageFilter.h */,
+				DAD510C524C84B900030D767 /* SkImageSource.h */,
+				DAD510C624C84B900030D767 /* SkBlurMaskFilter.h */,
+				DAD510C724C84B900030D767 /* SkLumaColorFilter.h */,
+				DAD510C824C84B900030D767 /* SkTableColorFilter.h */,
+				DAD510C924C84B900030D767 /* SkBlurImageFilter.h */,
+				DAD510CA24C84B900030D767 /* SkRuntimeEffect.h */,
+				DAD510CB24C84B900030D767 /* SkMagnifierImageFilter.h */,
+				DAD510CC24C84B900030D767 /* SkPictureImageFilter.h */,
+				DAD510CD24C84B900030D767 /* SkTrimPathEffect.h */,
+				DAD510CE24C84B900030D767 /* SkImageFilters.h */,
+				DAD510CF24C84B900030D767 /* SkComposeImageFilter.h */,
+				DAD510D024C84B900030D767 /* Sk2DPathEffect.h */,
+				DAD510D124C84B900030D767 /* SkArithmeticImageFilter.h */,
+				DAD510D224C84B900030D767 /* SkLayerDrawLooper.h */,
+				DAD510D324C84B900030D767 /* SkColorFilterImageFilter.h */,
+				DAD510D424C84B900030D767 /* SkBlurDrawLooper.h */,
+				DAD510D524C84B900030D767 /* SkLightingImageFilter.h */,
+				DAD510D624C84B900030D767 /* SkHighContrastFilter.h */,
+			);
+			path = effects;
+			sourceTree = "<group>";
+		};
+		DAD510D724C84B900030D767 /* ports */ = {
+			isa = PBXGroup;
+			children = (
+				DAD510D824C84B900030D767 /* SkFontMgr_directory.h */,
+				DAD510D924C84B900030D767 /* SkFontMgr_indirect.h */,
+				DAD510DA24C84B900030D767 /* SkImageGeneratorWIC.h */,
+				DAD510DB24C84B900030D767 /* SkFontConfigInterface.h */,
+				DAD510DC24C84B900030D767 /* SkFontMgr_empty.h */,
+				DAD510DD24C84B900030D767 /* SkTypeface_win.h */,
+				DAD510DE24C84B900030D767 /* SkTypeface_mac.h */,
+				DAD510DF24C84B900030D767 /* SkRemotableFontMgr.h */,
+				DAD510E024C84B900030D767 /* SkFontMgr_fuchsia.h */,
+				DAD510E124C84B900030D767 /* SkImageGeneratorCG.h */,
+				DAD510E224C84B900030D767 /* SkFontMgr_fontconfig.h */,
+				DAD510E324C84B900030D767 /* SkCFObject.h */,
+				DAD510E424C84B900030D767 /* SkFontMgr_mac_ct.h */,
+				DAD510E524C84B900030D767 /* SkFontMgr_android.h */,
+				DAD510E624C84B900030D767 /* SkFontMgr_FontConfigInterface.h */,
+			);
+			path = ports;
+			sourceTree = "<group>";
+		};
+		DAD510E724C84B900030D767 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				DAD510E824C84B900030D767 /* sk_matrix.h */,
+				DAD510E924C84B900030D767 /* sk_path.h */,
+				DAD510EA24C84B900030D767 /* sk_colorspace.h */,
+				DAD510EB24C84B900030D767 /* sk_maskfilter.h */,
+				DAD510EC24C84B900030D767 /* sk_shader.h */,
+				DAD510ED24C84B900030D767 /* sk_imageinfo.h */,
+				DAD510EE24C84B900030D767 /* sk_data.h */,
+				DAD510EF24C84B900030D767 /* sk_image.h */,
+				DAD510F024C84B900030D767 /* sk_paint.h */,
+				DAD510F124C84B900030D767 /* sk_surface.h */,
+				DAD510F224C84B900030D767 /* sk_picture.h */,
+				DAD510F324C84B900030D767 /* sk_types.h */,
+				DAD510F424C84B900030D767 /* sk_canvas.h */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		DAD510F724C84BA70030D767 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD510F824C84BA80030D767 /* libskia.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47729E0122F447C800B9B36B /* KotlinIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47729E2A22F447CA00B9B36B /* Build configuration list for PBXNativeTarget "KotlinIOS" */;
+			buildPhases = (
+				47729E7122F480EB00B9B36B /* ShellScript */,
+				47729DFE22F447C800B9B36B /* Sources */,
+				47729DFF22F447C800B9B36B /* Frameworks */,
+				47729E0022F447C800B9B36B /* Resources */,
+				47729E7022F4806C00B9B36B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinIOS;
+			productName = KotlinIOS;
+			productReference = 47729E0222F447C800B9B36B /* KotlinIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47729E1522F447CA00B9B36B /* KotlinIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47729E2D22F447CA00B9B36B /* Build configuration list for PBXNativeTarget "KotlinIOSTests" */;
+			buildPhases = (
+				47729E1222F447CA00B9B36B /* Sources */,
+				47729E1322F447CA00B9B36B /* Frameworks */,
+				47729E1422F447CA00B9B36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47729E1822F447CA00B9B36B /* PBXTargetDependency */,
+			);
+			name = KotlinIOSTests;
+			productName = KotlinIOSTests;
+			productReference = 47729E1622F447CA00B9B36B /* KotlinIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47729E2022F447CA00B9B36B /* KotlinIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47729E3022F447CA00B9B36B /* Build configuration list for PBXNativeTarget "KotlinIOSUITests" */;
+			buildPhases = (
+				47729E1D22F447CA00B9B36B /* Sources */,
+				47729E1E22F447CA00B9B36B /* Frameworks */,
+				47729E1F22F447CA00B9B36B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47729E2322F447CA00B9B36B /* PBXTargetDependency */,
+			);
+			name = KotlinIOSUITests;
+			productName = KotlinIOSUITests;
+			productReference = 47729E2122F447CA00B9B36B /* KotlinIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47729DFA22F447C800B9B36B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Evgeny Petrenko";
+				TargetAttributes = {
+					47729E0122F447C800B9B36B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					47729E1522F447CA00B9B36B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 47729E0122F447C800B9B36B;
+					};
+					47729E2022F447CA00B9B36B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 47729E0122F447C800B9B36B;
+					};
+				};
+			};
+			buildConfigurationList = 47729DFD22F447C800B9B36B /* Build configuration list for PBXProject "KotlinIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47729DF922F447C800B9B36B;
+			productRefGroup = 47729E0322F447C800B9B36B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47729E0122F447C800B9B36B /* KotlinIOS */,
+				47729E1522F447CA00B9B36B /* KotlinIOSTests */,
+				47729E2022F447CA00B9B36B /* KotlinIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47729E0022F447C800B9B36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47729E1022F447CA00B9B36B /* LaunchScreen.storyboard in Resources */,
+				47729E0D22F447CA00B9B36B /* Assets.xcassets in Resources */,
+				47729E0B22F447C800B9B36B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47729E1422F447CA00B9B36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47729E1F22F447CA00B9B36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47729E7122F480EB00B9B36B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\ncd \"$SRCROOT/../../SharedCode/build/xcode-frameworks\"\n./gradlew :SharedCode:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47729DFE22F447C800B9B36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47729E0822F447C800B9B36B /* ViewController.swift in Sources */,
+				47729E0622F447C800B9B36B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47729E1222F447CA00B9B36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47729E1B22F447CA00B9B36B /* KotlinIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47729E1D22F447CA00B9B36B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47729E2622F447CA00B9B36B /* KotlinIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47729E1822F447CA00B9B36B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47729E0122F447C800B9B36B /* KotlinIOS */;
+			targetProxy = 47729E1722F447CA00B9B36B /* PBXContainerItemProxy */;
+		};
+		47729E2322F447CA00B9B36B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47729E0122F447C800B9B36B /* KotlinIOS */;
+			targetProxy = 47729E2222F447CA00B9B36B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47729E0922F447C800B9B36B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47729E0A22F447C800B9B36B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47729E0E22F447CA00B9B36B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47729E0F22F447CA00B9B36B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47729E2822F447CA00B9B36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47729E2922F447CA00B9B36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47729E2B22F447CA00B9B36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92ZT9FVY43;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
+				INFOPLIST_FILE = KotlinIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KotlinIOS/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test22.KotlinIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47729E2C22F447CA00B9B36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92ZT9FVY43;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
+				INFOPLIST_FILE = KotlinIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KotlinIOS/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test22.KotlinIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47729E2E22F447CA00B9B36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.handson.mpp.mobile.KotlinIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinIOS.app/KotlinIOS";
+			};
+			name = Debug;
+		};
+		47729E2F22F447CA00B9B36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.handson.mpp.mobile.KotlinIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinIOS.app/KotlinIOS";
+			};
+			name = Release;
+		};
+		47729E3122F447CA00B9B36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.handson.mpp.mobile.KotlinIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinIOS;
+			};
+			name = Debug;
+		};
+		47729E3222F447CA00B9B36B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KotlinIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.handson.mpp.mobile.KotlinIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47729DFD22F447C800B9B36B /* Build configuration list for PBXProject "KotlinIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47729E2822F447CA00B9B36B /* Debug */,
+				47729E2922F447CA00B9B36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47729E2A22F447CA00B9B36B /* Build configuration list for PBXNativeTarget "KotlinIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47729E2B22F447CA00B9B36B /* Debug */,
+				47729E2C22F447CA00B9B36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47729E2D22F447CA00B9B36B /* Build configuration list for PBXNativeTarget "KotlinIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47729E2E22F447CA00B9B36B /* Debug */,
+				47729E2F22F447CA00B9B36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47729E3022F447CA00B9B36B /* Build configuration list for PBXNativeTarget "KotlinIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47729E3122F447CA00B9B36B /* Debug */,
+				47729E3222F447CA00B9B36B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47729DFA22F447C800B9B36B /* Project object */;
+}

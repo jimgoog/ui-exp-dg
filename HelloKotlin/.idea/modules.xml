@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HelloKotlin.iml" filepath="$PROJECT_DIR$/HelloKotlin.iml" group="HelloKotlin" />
+      <module fileurl="file://$PROJECT_DIR$/SharedCode/SharedCode.iml" filepath="$PROJECT_DIR$/SharedCode/SharedCode.iml" group="HelloKotlin/SharedCode" />
+      <module fileurl="file://$PROJECT_DIR$/SharedCode/SharedCode.androidMain~1.iml" filepath="$PROJECT_DIR$/SharedCode/SharedCode.androidMain~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedCode/SharedCode.androidTest~1.iml" filepath="$PROJECT_DIR$/SharedCode/SharedCode.androidTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedCode/SharedCode.commonMain~1.iml" filepath="$PROJECT_DIR$/SharedCode/SharedCode.commonMain~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedCode/SharedCode.commonTest~1.iml" filepath="$PROJECT_DIR$/SharedCode/SharedCode.commonTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedCode/SharedCode.iosMain~1.iml" filepath="$PROJECT_DIR$/SharedCode/SharedCode.iosMain~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedCode/SharedCode.iosTest~1.iml" filepath="$PROJECT_DIR$/SharedCode/SharedCode.iosTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="HelloKotlin/app" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="mpp-ios-android.app" target="1.7" />
+      <module name="mpp-ios-android.SharedCode.androidMain" target="1.6" />
+      <module name="mpp-ios-android.SharedCode.androidTest" target="1.6" />
+      <module name="SharedCode.androidMain" target="1.6" />
+      <module name="SharedCode.androidMain~1" target="1.6" />
+      <module name="SharedCode.androidTest" target="1.6" />
+      <module name="SharedCode.androidTest~1" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
