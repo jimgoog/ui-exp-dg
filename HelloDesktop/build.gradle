@@ -1,0 +1,22 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0-rc'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    compile fileTree(dir: 'lib', include: '*.jar')
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    kotlinOptions {
+        jvmTarget = "1.8"
+        freeCompilerArgs += ["-Xskip-prerelease-check", "-Xplugin=/Users/jsproch/HelloDesktop/lib/compose-compiler-0.1.0-dev15.jar", "-Xuse-ir"]
+    }
+}
